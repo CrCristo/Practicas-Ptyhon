@@ -1,0 +1,32 @@
+## Ordenar númerons de menor a mayor
+
+      cant= int(input("Ingrese la cantidad de números a ordenar: "))
+      nums= []
+      for i in range (0,cant):
+        nums.append(int(input("Ingrese el número: ")))
+      nums.sort()
+      print (nums)
+
+## Adivinar el número secreto
+      import random
+      num_sec= random.randint(0,10)
+      vidas=5
+      print ("Bienvenido al - Nùmero Secreto -\nAdivina el nùmero entre 0 y 10")
+      num_ply= int(input("Ingresa tu número: "))
+      while ((vidas!=0 or num_ply!=num_sec) and 0<=num_ply<=10):
+        vidas = vidas-1
+        if num_ply==num_sec:
+          break
+        elif num_ply<num_sec:
+          print ("El número es más grande")
+        else:
+          print ("El número es más pequeño")
+        print (vidas, " vidas restantes")
+        num_ply= int(input("Ingresa tu número: "))  
+      if num_sec==num_ply:
+          print ("¡Felicidades! Encontraste el - Número Secreto -")
+      elif vidas==0:
+        print ( "Perdiste.")
+      else:
+        print ("Formato inválido")
+      print ("El número secreto es ",num_sec)
