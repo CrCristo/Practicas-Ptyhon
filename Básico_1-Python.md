@@ -124,6 +124,9 @@ Buscar forma de no usar tanto if
               permutations = list(permutations(vars))
               print(permutations)      
 
+![image](https://user-images.githubusercontent.com/111446231/187728744-3bf4b107-f2fc-42e5-b845-a56df8cdaef7.png)
+
+
 ## Write a Python program to remove and print every third number from a list of numbers until the list becomes empty.
 
 Observar como se :
