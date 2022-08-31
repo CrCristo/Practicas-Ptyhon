@@ -125,12 +125,18 @@ Buscar forma de no usar tanto if
               print(permutations)      
 
 ## Write a Python program to remove and print every third number from a list of numbers until the list becomes empty.
-métodosde eliminación de una lista 
- https://uniwebsidad.com/libros/python/capitulo-7/metodos-de-eliminacion
-contar el número de elementos de una lista 
- https://www.delftstack.com/es/howto/python/count-elements-in-list-python/#:~:text=lista%20en%20Python.-,Utilice%20la%20funci%C3%B3n%20len()%20para%20contar%20el%20n%C3%BAmero%20de,tipo%20de%20elementos%20que%20contiene.
-último elemento de una lista 
- https://www.delftstack.com/es/howto/python/get-last-element-of-list-in-python/
+
+Observar como se :
+
+Calcula el número de elementos de una lista conlen(lista)
+
+Eliminar un elemento de la lista con el indice con lista.pop(posicion del elemento-1)
+
+métodos de eliminación de una lista: https://uniwebsidad.com/libros/python/capitulo-7/metodos-de-eliminacion
+
+contar el número de elementos de una lista: https://www.delftstack.com/es/howto/python/count-elements-in-list-python/#:~:text=lista%20en%20Python.-,Utilice%20la%20funci%C3%B3n%20len()%20para%20contar%20el%20n%C3%BAmero%20de,tipo%20de%20elementos%20que%20contiene.
+
+último elemento de una lista: https://www.delftstack.com/es/howto/python/get-last-element-of-list-in-python/
 
     inicio
     vars = []
