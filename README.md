@@ -5,3 +5,5 @@ Cuenta moodle
 Direccción: http://187.217.4.141/~edc/moodle/
 352NRA43
 ROSC020112HMCMNRA4*p
+
+![image](https://user-images.githubusercontent.com/111446231/187725214-026fce90-2f86-4b3e-9873-f18d7f0e0538.png)
