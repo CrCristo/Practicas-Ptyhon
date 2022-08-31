@@ -1,5 +1,11 @@
 ## Ordenar númerons de menor a mayor
 
+Observar cómo: 
+
+Agregar elementos a una lista con lista.append(variable)
+
+Ordenar los elementos de una lista de menos a mayor (números y letras) con lista.sort()
+
       cant= int(input("Ingrese la cantidad de números a ordenar: "))
       nums= []
       for i in range (0,cant):
@@ -8,6 +14,14 @@
       print (nums)
 
 ## Adivinar el número secreto
+
+Observar cómo: 
+
+Sacar un número aleatorio con import random y  random.randint(rango)
+
+Usar un while(condición): y break  
+
+Dos numeros distintos ( != )
 
       import random
       num_sec= random.randint(0,10)
@@ -32,6 +46,7 @@
         print ("Formato inválido")
       print ("El número secreto es ",num_sec)
 
+Buscar forma de no usar tanto if
 
 ## Write a Python function that takes a sequence of numbers and determines whether all the numbers are different from each other
 
@@ -63,12 +78,13 @@
 
 ## Write a Python program to create all possible strings by using 'a', 'e', 'i', 'o', 'u'. Use the characters exactly once
 
- permutaciones 
-https://ajaxhispano.com/ask/generar-todas-las-combinaciones-de-una-lista-en-python-110467/
- combinaciones 
-https://www.delftstack.com/es/howto/python/combinations-of-list-in-python/
- ordenas de diferentes formas
---
+ Observar como calcular un factrorial y como sacar permutaciones y utilización de if con string
+
+ permutaciones:  https://ajaxhispano.com/ask/generar-todas-las-combinaciones-de-una-lista-en-python-110467/
+ 
+ combinaciones: https://www.delftstack.com/es/howto/python/combinations-of-list-in-python/
+ 
+ ordenar de diferentes formas: --
 
     inicio
     declarar numero de variables(int), variable a añadir(char), lista de variables
@@ -90,15 +106,21 @@ https://www.delftstack.com/es/howto/python/combinations-of-list-in-python/
             for i in range (num_vars):
               var_n = str(input("Ingrese la variable a añadir: "))
               vars.append(var_n)
+              
             #calcular una factorial
+            
             fact = 1
             for i in range(1, num_vars+1):
               fact = fact * i
             print ("Hay",fact,"permutaciones para los elementos ingresados \n¿Desea mostrarlas?")
+            
             #preguntar si mostrar las permutaciones
+            
             des=str(input("y/n: "))
             if des=="y" or des=="Y":
+            
             #crear todas las permutaciones posibles
+            
               permutations = list(permutations(vars))
               print(permutations)      
 
