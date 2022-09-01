@@ -1,6 +1,8 @@
 # Practicas-Ptyhon
 Proyectos de Python resueltos 
 
+**Página de Ejercicios**: https://www.w3resource.com/python-exercises/ 
+
 Cuenta moodle
 Direccción: http://187.217.4.141/~edc/moodle/
 352NRA43
