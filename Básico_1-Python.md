@@ -131,7 +131,7 @@ Buscar forma de no usar tanto if
 
 Observar como se :
 
-Calcula el número de elementos de una lista conlen(lista)
+Calcula el número de elementos de una lista con len(lista)
 
 Eliminar un elemento de la lista con el indice con lista.pop(posicion del elemento-1)
 
@@ -163,3 +163,10 @@ contar el número de elementos de una lista: https://www.delftstack.com/es/howto
         vars.pop(2)
       else:
         vars.pop(-1)
+
+### Display Colors
+Write a Python program to display the first and last colors from the following list color_list = ["Red","Green","White" ,"Black"]
+
+https://www.geeksforgeeks.org/print-colors-python-terminal/
+
+https://stackoverflow.com/questions/287871/how-do-i-print-colored-text-to-the-terminal
